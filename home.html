@@ -9,8 +9,6 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap" rel="stylesheet" />
     <link rel="stylesheet " type="text/css " href="./css/style.css" />
-
-
     <link rel="icon" href="./assets/images/favicon.ico" sizes="34px" />
 
 </head>
@@ -23,21 +21,22 @@
             </div>
 
             <div class="menu ">
-                <img class="menu-opener " src="./assets/images/menu2.png " />
+                <img onclick="menuToggle()" class="menu-opener" src="./assets/images/menu2.png " />
+                <nav id="menu-area">
 
-                <nav>
-                    <ul>
-                        <li class="active "><a href=" ">Home</a></li>
-                        <li><a href=" ">Sobre</a></li>
-                        <li><a href=" ">Serviços</a></li>
-                        <li><a href=" ">Nossos produtos</a></li>
-                        <li><a href=" ">Nosso Time</a></li>
-                        <li><a href=" ">Happy Clients</a></li>
-                        <li><a href=" ">Orçamento</a></li>
-                        <li><a href=" ">Alguns Fatos</a></li>
-                        <li><a href=" ">Contato</a></li>
-                    </ul>
-                </nav>
+                    <nav>
+                        <ul>
+                            <li class="active "><a href=" ">Home</a></li>
+                            <li><a href=" ">Sobre</a></li>
+                            <li><a href=" ">Serviços</a></li>
+                            <li><a href=" ">Nossos produtos</a></li>
+                            <li><a href=" ">Nosso Time</a></li>
+                            <li><a href=" ">Happy Clients</a></li>
+                            <li><a href=" ">Orçamento</a></li>
+                            <li><a href=" ">Alguns Fatos</a></li>
+                            <li><a href=" ">Contato</a></li>
+                        </ul>
+                    </nav>
             </div>
         </div>
     </header>
@@ -63,13 +62,13 @@
                         <h2>CONHEÇA NOSSOS PRODUTOS!</h2><a href=" " class="button ">Conhecer</a></div>
                 </div>
             </div>
-            <div class="sliders-pointers ">
-                <div class="pointer active "></div>
-                <div class="pointer "></div>
-                <div class="pointer "></div>
+            <div class="sliders-pointers">
+                <div onclick="changeSlide('.banner', 0)" class="pointer active"></div>
+                <div onclick="changeSlide('.banner', 1)" class="pointer"></div>
+                <div onclick="changeSlide('.banner', 2)" class="pointer"></div>
             </div>
         </section>
-        <section class="default light ">
+            <section class="default light ">
             <div class="section-title ">Sobre Nós</div>
             <div class="section-desc ">Quem somos?</div>
             <div class="section-body ">
@@ -77,7 +76,9 @@
                     <div class="section-aboutus--left ">
                         <p>Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
                             book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p><br><a href=" " class="button ">SAIBA MAIS</a></div>
+                            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p><br>
+                        <center><a href=" " class="button ">SAIBA MAIS</a></center>
+                    </div>
                     <div class="section-aboutus--right "><img src="./media/foto1.jpg " /></div>
                 </div>
             </div>
@@ -114,7 +115,7 @@
                     <div class="section-projects--filters ">
                         <ul>
                             <li>Todos</li>
-                            <li class="active ">Plantas</li>
+                            <li class="active">Plantas</li>
                             <li>Arranjos</li>
                             <li>Sementes</li>
                             <li>Flores</li>
@@ -250,36 +251,8 @@
                         <div class="sliders " style="margin-left:0; ">
                             <div class="slide ">
                                 <div class="slidearea ">
-                                    <img class="section-team--avatar " src="media/tay1.png " />
-                                    <div class="section-team--name ">Taylor Swift</div>
-                                    <div class="section-team--role ">Filha da Dona</div>
-                                    <div class="section-team--social ">
-                                        <a href=" "><img src="assets/images/facebook.png " /></a>
-                                        <a href=" "><img src="assets/images/googleplus.png " /></a>
-                                        <a href=" "><img src="assets/images/linkedin.png " /></a>
-                                        <a href=" "><img src="assets/images/pinterest.png " /></a>
-                                        <a href=" "><img src="assets/images/twitter.png " /></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide ">
-                                <div class="slidearea ">
-                                    <img class="section-team--avatar " src="media/harry.jpg " />
-                                    <div class="section-team--name ">Harry Styles</div>
-                                    <div class="section-team--role ">Jardineiro</div>
-                                    <div class="section-team--social ">
-                                        <a href=" "><img src="assets/images/facebook.png " /></a>
-                                        <a href=" "><img src="assets/images/googleplus.png " /></a>
-                                        <a href=" "><img src="assets/images/linkedin.png " /></a>
-                                        <a href=" "><img src="assets/images/pinterest.png " /></a>
-                                        <a href=" "><img src="assets/images/twitter.png " /></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide ">
-                                <div class="slidearea ">
-                                    <img class="section-team--avatar " src="media/lanna.jpg " />
-                                    <div class="section-team--name ">Lanna del Rey</div>
+                                    <img class="section-team--avatar " src="media/mulher1.png" />
+                                    <div class="section-team--name ">Samara Holt</div>
                                     <div class="section-team--role ">CEO</div>
                                     <div class="section-team--social ">
                                         <a href=" "><img src="assets/images/facebook.png " /></a>
@@ -292,9 +265,37 @@
                             </div>
                             <div class="slide ">
                                 <div class="slidearea ">
-                                    <img class="section-team--avatar " src="media/taylor.jpg " />
-                                    <div class="section-team--name ">Taylor Swift</div>
-                                    <div class="section-team--role ">Filha da dona</div>
+                                    <img class="section-team--avatar " src="media/mulher2.png" />
+                                    <div class="section-team--name ">Carla Silver</div>
+                                    <div class="section-team--role ">Editora Geral</div>
+                                    <div class="section-team--social ">
+                                        <a href=" "><img src="assets/images/facebook.png " /></a>
+                                        <a href=" "><img src="assets/images/googleplus.png " /></a>
+                                        <a href=" "><img src="assets/images/linkedin.png " /></a>
+                                        <a href=" "><img src="assets/images/pinterest.png " /></a>
+                                        <a href=" "><img src="assets/images/twitter.png " /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide ">
+                                <div class="slidearea ">
+                                    <img class="section-team--avatar " src="media/homem1.png" />
+                                    <div class="section-team--name ">Raul Saint</div>
+                                    <div class="section-team--role ">Editor de Mídia</div>
+                                    <div class="section-team--social ">
+                                        <a href=" "><img src="assets/images/facebook.png " /></a>
+                                        <a href=" "><img src="assets/images/googleplus.png " /></a>
+                                        <a href=" "><img src="assets/images/linkedin.png " /></a>
+                                        <a href=" "><img src="assets/images/pinterest.png " /></a>
+                                        <a href=" "><img src="assets/images/twitter.png " /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide ">
+                                <div class="slidearea ">
+                                    <img class="section-team--avatar " src="media/homem2.png" />
+                                    <div class="section-team--name ">Kyon River</div>
+                                    <div class="section-team--role ">Sofware Engineer</div>
                                     <div class="section-team--social ">
                                         <a href=" "><img src="assets/images/facebook.png " /></a>
                                         <a href=" "><img src="assets/images/googleplus.png " /></a>
@@ -306,10 +307,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="sliders-pointers ">
-                        <div class="pointer active "></div>
-                        <div class="pointer "></div>
-                        <div class="pointer "></div>
+                    </div>
+                    <div class="sliders-pointers">
+                        <div onclick="changeSlide('.bg-team', 0)" class="pointer active"></div>
+                        <div onclick="changeSlide('.bg-team', 1)" class="pointer"></div>
+                        <div onclick="changeSlide('.bg-team', 2)" class="pointer"></div>
                     </div>
                 </div>
             </div>
@@ -323,7 +325,7 @@
                     <div class="sliders " style="margin-left:0; ">
                         <div class="slide ">
                             <div class="slidearea ">
-                                <img class="section-testimonials--avatar " src="./media/homem1.png " />
+                                <img class="section-testimonials--avatar " src="./assets/images/face1.png" />
                                 <div class="section-testimonials--name ">Augusto Height</div>
                                 <div class="section-testimonials--role ">CEO</div>
                                 <img class="section-testimonials--quoteimg " src="./assets/images/quote.png " />
@@ -334,7 +336,7 @@
                         </div>
                         <div class="slide ">
                             <div class="slidearea ">
-                                <img class="section-testimonials--avatar " src="./media/homem2.png " />
+                                <img class="section-testimonials--avatar " src="./assets/images/face2.png " />
                                 <div class="section-testimonials--name ">Lucas Yen</div>
                                 <div class="section-testimonials--role ">Departamento de Vendas</div>
                                 <img class="section-testimonials--quoteimg " src="./assets/images/quote.png " />
@@ -345,7 +347,7 @@
                         </div>
                         <div class="slide ">
                             <div class="slidearea ">
-                                <img class="section-testimonials--avatar " src="./media/mulher1.png " />
+                                <img class="section-testimonials--avatar " src="./assets/images/face3.png " />
                                 <div class="section-testimonials--name ">Rita Santine</div>
                                 <div class="section-testimonials--role ">Promotora de Vendas</div>
                                 <img class="section-testimonials--quoteimg " src="./assets/images/quote.png " />
@@ -355,10 +357,10 @@
                         </div>
                     </div>
 
-                    <div class="sliders-pointers ">
-                        <div class="pointer active "></div>
-                        <div class="pointer "></div>
-                        <div class="pointer "></div>
+                    <div class="sliders-pointers">
+                        <div onclick="changeSlide('.testimonials', 0)" class="pointer active"></div>
+                        <div onclick="changeSlide('.testimonials', 1)" class="pointer"></div>
+                        <div onclick="changeSlide('.testimonials', 2)" class="pointer"></div>
                     </div>
                 </div>
             </div>
@@ -595,9 +597,14 @@
 
     </main>
     <footer>
+
         <div class="footer--area ">
+            <h4>
+                <center>Siga-nos nas redes sociais:</h4>
+            </center><br>
             <div class="footer--item area1 ">
                 <div class="footer-social ">
+
                     <a href=" "><img src="./assets/images/twitter.png " /></a>
                     <a href=" "><img src="./assets/images/linkedin.png " /></a>
                     <a href=" "><img src="./assets/images/facebook.png " /></a>
@@ -606,8 +613,7 @@
                 </div>
             </div>
             <div class="footer--item area2 ">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus. Maecenas eros lectus, rhoncus vel dictum vel, dignissim eget ligula. Vestibulum id tempus quam, sed pellentesque quam. Vestibulum porta aliquet
-                risus, ac rhoncus sem aliquet ac. Donec tincidunt cursus elit vitae euismod.
+                <h2>Quer receber ofertas exclusivas? <br> Cadastre seu melhor e-mail:</h2>
             </div>
             <div class="footer--item area3 ">
                 <form method="POST ">
@@ -617,6 +623,8 @@
             </div>
         </div>
     </footer>
+    <div id="scrollTopButton" onclick="backToTop()">/\</div>
+    <script type="text/javascript" src="./js/script.js"></script>
 </body>
 
 </html>
