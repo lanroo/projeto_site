@@ -241,9 +241,7 @@ header {
 .default.light {
   background-color: #eee;
 }
-.default.light .
-
-.default.light .section-title,
+.default.light . .default.light .section-title,
 .default.light .section-body {
   color: #000;
 }
@@ -684,16 +682,12 @@ SECTION COMPANIES
 .section-companies--area {
   display: flex;
   align-items: center;
-  
 }
 
 .section-company {
   flex: 1;
   text-align: center;
 }
-
-
-
 
 /* 
 SECTION COMPANIES END
@@ -902,7 +896,6 @@ SECTION FACTS
   font-size: 13px;
   color: #555;
 }
-
 
 /* 
 SECTION SHARE
@@ -1138,8 +1131,6 @@ footer {
   max-width: 1140px;
 }
 
-
-
 .footer--item {
   flex: 1;
 }
@@ -1150,28 +1141,25 @@ footer {
   justify-content: space-between;
 }
 
-
-
 .developer {
-	width: 100%;
-	text-align: center;
-	border-top: solid 2px #888;
-	padding: 18px;
-	color: #888;
-	text-transform: capitalize;
-	font-size: 16px;
-	font-weight: 600;
+  width: 100%;
+  text-align: center;
+  border-top: solid 2px #888;
+  padding: 18px;
+  color: #888;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .developer span a {
-	text-decoration: none;
-	color: #b1b1b1;
-	cursor: pointer;
+  text-decoration: none;
+  color: #b1b1b1;
+  cursor: pointer;
 }
 .developer span a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
-
 
 .footer-social {
   display: flex;
@@ -1226,7 +1214,6 @@ footer {
   border: 0;
   cursor: pointer;
 }
-
 
 #scrollTopButton {
   display: none;
@@ -1535,8 +1522,8 @@ footer {
   .footer--item.area2 {
     order: 3;
   }
-  
+
   .developer span a {
-		text-decoration: underline;
-	}
+    text-decoration: underline;
+  }
 }
