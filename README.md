@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< HEAD:README.md
 
 ## <center>**PROJECT AWAX - B7WEB COURSE**</center>
@@ -13,22 +14,56 @@ Created site with reference to the course of b7web. Open source project, there w
 
 - Technologies
 
+=======
+
+  
+<h1 align="center"> 
+  PROJECT AWAX - B7WEB COURSE 
+  </h1>
+
+
+
+
+#### Created site with reference to the course of b7web. Open source project, there were code changes made by Ylanna Almeida. The site's intent is completely community-based, feel comfortable to do whatever you want with the codes of this project.
+
+<br><br>
+
+
+- Technologies
+
+
+>>>>>>> 0300e60a993a1e154c104500dcc4f6ca9d66e255
     <div style="display: inline_block">
     <img align="center" alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> 
     <img align="center" alt="css3"src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> 
     <img align="center" alt="js" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 0300e60a993a1e154c104500dcc4f6ca9d66e255
 
 <br>
 
 - Layout Reference
 
   [Landing Page](https://www.behance.net/gallery/58301549/Free-Landing-Page)
+<<<<<<< HEAD
 
 <br>
 
 - License
 
   [GNU GENERAL PUBLIC LICENSE](https://github.com/lanroo/projeto_site/blob/main/LICENSE)
+=======
+ 
+<br>
+
+ - License 
+
+    [GNU GENERAL PUBLIC LICENSE](https://github.com/lanroo/projeto_site/blob/main/LICENSE)
+
+
+>>>>>>> 0300e60a993a1e154c104500dcc4f6ca9d66e255
 
 </h2>
 <br>
@@ -44,7 +79,13 @@ Created site with reference to the course of b7web. Open source project, there w
 <br>
 <br>
 
+<<<<<<< HEAD
 <center> <i>created by Ylanna Almeida.</i> 
 <br><br>
 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
 </center>
+=======
+<center> <i>created by Ylanna Almeida.</i> </center>
+<br>
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+>>>>>>> 0300e60a993a1e154c104500dcc4f6ca9d66e255
