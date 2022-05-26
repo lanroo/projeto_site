@@ -228,7 +228,7 @@ header {
 
 .default .section-desc {
   font-size: 12px;
-  color: rgb(235, 233, 233);
+  color: #eee;
   margin-top: 10px;
   margin-bottom: 40px;
 }
@@ -239,8 +239,9 @@ header {
 }
 
 .default.light {
-  background-color: rgb(255, 253, 253);
+  background-color: #eee;
 }
+.default.light .
 
 .default.light .section-title,
 .default.light .section-body {
@@ -572,6 +573,18 @@ CARD SLIDE
 SECTION TEAM END
 */
 
+.company-happy {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  border-bottom: solid 1px #ccc;
+  border-top: solid 1px rgb(19, 18, 18);
+  gap: 50px;
+}
+
 /* 
 SECTION TESTIMONIALS
 */
@@ -664,19 +677,23 @@ SECTION COMPANIES
 */
 
 .section-companies {
-  border-top: 1px solid #555;
-  border-bottom: 1px solid #555;
+  border-top: 1px solid rgb(192, 190, 190);
+  border-bottom: 1px solid rgb(192, 190, 190);
 }
 
 .section-companies--area {
   display: flex;
   align-items: center;
+  
 }
 
 .section-company {
   flex: 1;
   text-align: center;
 }
+
+
+
 
 /* 
 SECTION COMPANIES END
@@ -862,7 +879,7 @@ SECTION FACTS
 }
 
 .section-fact h3 {
-  color: #555;
+  color: rgb(15, 129, 11);
   font-size: 45px;
   margin-bottom: 7px;
 }
